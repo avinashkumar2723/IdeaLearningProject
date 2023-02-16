@@ -15,7 +15,6 @@ public class PrimeCheck {
 
     boolean checkIfPrime(int noToCheck){
 
-
         try {
             for(int i =2;i<(noToCheck);i++){
                 if((noToCheck%i) == 0) {
