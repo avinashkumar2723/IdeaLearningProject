@@ -20,6 +20,6 @@ public class TestJave8 {
 
         employeeList.stream().filter(employee -> employee.getDepartment().equals("IT")).forEach(employee -> System.out.println(employee.getName()));
 
-
+        
     }
 }
